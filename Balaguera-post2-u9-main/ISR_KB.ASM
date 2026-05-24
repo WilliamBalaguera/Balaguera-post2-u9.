@@ -1,6 +1,6 @@
 ; =============================================================================
 ; ISR_KB.ASM — ISR personalizado para IRQ1 (Teclado)
-; Autor  : Juan David Kher | Código: 1152430
+; Autor  : William Balaguera | Código: 1152439
 ; Curso  : Arquitectura de Computadores — Unidad 9 Post-Contenido 2
 ; Compila: nasm -f bin ISR_KB.ASM -o ISR_KB.COM
 ; Uso    : ISR_KB  (ejecutar en DOSBox desde C:\U9P2\)
