@@ -1,6 +1,6 @@
 ; =============================================================================
 ; MASK_KB.ASM — Enmascarar y desenmascarar IRQ1 usando el IMR del PIC 8259A
-; Autor  : Juan David Kher | Código: 1152430
+; Autor  : William Balaguera | Código: 1152439
 ; Curso  : Arquitectura de Computadores — Unidad 9 Post-Contenido 2
 ; Compila: nasm -f bin MASK_KB.ASM -o MASK_KB.COM
 ; Uso    : MASK_KB  (ejecutar en DOSBox desde C:\U9P2\)
@@ -27,7 +27,7 @@
 ; -----------------------------------------------------------------------------
 section .data
 
-    msg_inicio  DB "Laboratorio MASK_KB — Juan David Kher (1152430)", 0Dh, 0Ah,
+    msg_inicio  DB "Laboratorio MASK_KB — William Balaguera (1152439)", 0Dh, 0Ah,
                 DB "Enmascarando IRQ1 por 3 segundos...", 0Dh, 0Ah, "$"
 
     msg_mask    DB "  [MASK] IRQ1 enmascarado — teclado deshabilitado...$"
