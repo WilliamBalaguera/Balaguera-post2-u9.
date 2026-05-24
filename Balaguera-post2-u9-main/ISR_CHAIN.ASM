@@ -1,6 +1,6 @@
 ; =============================================================================
 ; ISR_CHAIN.ASM — ISR con encadenamiento al handler original de IRQ1
-; Autor  : Juan David Kher | Código: 1152430
+; Autor  : William Balaguera | Código: 1152439
 ; Curso  : Arquitectura de Computadores — Unidad 9 Post-Contenido 2
 ; Compila: nasm -f bin ISR_CHAIN.ASM -o ISR_CHAIN.COM
 ; Uso    : ISR_CHAIN  (ejecutar en DOSBox desde C:\U9P2\)
@@ -41,7 +41,7 @@ section .data
 
     old_isr     DD 0                            ; SEG:OFF del handler original
 
-    msg_inicio  DB "Laboratorio ISR_CHAIN — Juan David Kher (1152430)", 0Dh, 0Ah,
+    msg_inicio  DB "Laboratorio ISR_CHAIN — William Balaguera (1152439)", 0Dh, 0Ah,
                 DB "ISR con encadenamiento activo.", 0Dh, 0Ah,
                 DB "Presione 5 teclas (el eco de DOS debe seguir funcionando)...",
                 DB 0Dh, 0Ah, "$"
